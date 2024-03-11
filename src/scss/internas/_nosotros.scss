@@ -1,0 +1,20 @@
+.contenido-nosotros{
+    @include tablet {
+        @include grid(2, 2rem);
+    }
+}
+
+.contenido-nosotros{
+    .imagen img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.texto-nosotros blockquote{
+    margin-top: 3rem 0 0 0;
+    font-weight: $black;
+    font-size: 2.2rem;
+   
+    padding-left: 1rem 0 3rem 0;
+}
